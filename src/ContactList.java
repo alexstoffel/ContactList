@@ -15,11 +15,8 @@ public class ContactList {
     }
 
     // Setters
-    public void addContact(Adult adult){
-        contacts.add(adult);
-    }
-    public void addContact(Student student){
-        contacts.add(student);
+    public void addContact(Person person){
+        contacts.add(person);
     }
 
     // Print contacts
